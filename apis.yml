@@ -1,7 +1,15 @@
 aid: sales-patriot
 name: Sales Patriot
-description: 'Sales Patriot is a company surfaced as a portfolio company of crv and added to the API Evangelist
-  network as a stub for enrichment. Sector: sales. This profile is a lead awaiting the enrichment pipeline.'
+description: 'SalesPatriot deploys artificial intelligence into enterprise supply chain
+  operations, embedding engineers onsite to build custom AI solutions that integrate
+  fragmented business systems (ERP, CRM, email, spreadsheets, and supplier portals)
+  and automate routine workflows. The platform aggregates data from scattered sources
+  into a unified, searchable system, automates tasks such as quoting, sourcing, and
+  data entry, and visualizes real-time operational metrics for executives. It serves
+  defense contracting and procurement, complex multi-source procurement operations,
+  and high-volume distribution. SalesPatriot is a portfolio company of CRV. This profile
+  was added to the API Evangelist network and enriched by the pipeline; the company
+  publishes no public developer or API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/sales-patriot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +17,30 @@ x-backed-by:
 - crv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Sales
+- Supply Chain
+- Artificial Intelligence
+- Procurement
+- Defense
+- Distribution
+- Automation
+image: https://salespatriot.com/
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sales-patriot-domain-security.yml
 - type: Website
   url: https://salespatriot.com/
+- type: Blog
+  url: https://salespatriot.com/blog
+- type: SignUp
+  url: https://salespatriot.com/demo
+- type: PrivacyPolicy
+  url: https://salespatriot.com/legal/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
